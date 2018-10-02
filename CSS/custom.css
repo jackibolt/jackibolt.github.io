@@ -1,0 +1,385 @@
+* {
+  font-family: "Kodchasan", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  width: 100%;
+  margin: auto;
+  background-color: #292d34;
+  color: white;
+}
+@media (min-width: 992px) {
+  body {
+    overflow: hidden;
+  }
+}
+
+p {
+  margin-top: 15px;
+}
+
+h2 {
+  font-size: 1.25rem;
+}
+
+h4 {
+  font-size: 16px;
+  line-height: 1.4;
+}
+@media (min-width: 768px) {
+  h4 {
+    font-size: 1.5rem;
+  }
+}
+
+header {
+  font-family: "Gloria Hallelujah", cursive;
+  position: fixed;
+  background: #292d34;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 0;
+  width: 160px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #f97985;
+}
+header h6 {
+  color: #fff;
+  font-family: "Kodchasan", sans-serif;
+}
+
+#meeting {
+  display: none;
+}
+@media (min-width: 768px) {
+  #meeting {
+    display: block;
+    position: absolute;
+    width: 300px;
+    top: 0px;
+    left: 80px;
+  }
+}
+@media (min-width: 992px) {
+  #meeting {
+    position: absolute;
+    width: 350px;
+    top: 0px;
+    left: 100px;
+  }
+}
+
+#connect {
+  display: none;
+}
+@media (min-width: 768px) {
+  #connect {
+    display: block;
+    margin-top: 130px;
+  }
+}
+@media (min-width: 992px) {
+  #connect {
+    display: block;
+    margin-top: 0px;
+  }
+}
+
+#connect-stack {
+  margin-top: 40px;
+  margin-left: 30px;
+  height: 200px;
+}
+@media (min-width: 768px) {
+  #connect-stack {
+    display: none;
+  }
+}
+
+#world {
+  margin-top: -20px;
+  width: 220px;
+}
+@media (min-width: 768px) {
+  #world {
+    width: 450px;
+    position: absolute;
+    bottom: 220px;
+    right: 0px;
+  }
+}
+@media (min-width: 992px) {
+  #world {
+    width: 600px;
+    position: absolute;
+    bottom: -60px;
+    right: 50px;
+  }
+}
+
+.projects img {
+  padding: 0;
+  border: grey 3px solid;
+  border-radius: 3px;
+  width: 100%;
+}
+
+#biplane {
+  width: 45px;
+  margin-left: 50px;
+}
+@media (min-width: 768px) {
+  #biplane {
+    width: 70px;
+  }
+}
+
+#lightbulb {
+  width: 100px;
+  position: absolute;
+  bottom: -15px;
+  left: 425px;
+  display: none;
+}
+
+#github-icon,
+#linkedin-icon {
+  display: inline;
+  width: 30px;
+}
+@media (min-width: 768px) {
+  #github-icon,
+#linkedin-icon {
+    width: 40px;
+  }
+}
+
+nav {
+  background: #292d34;
+  color: #67d9e8;
+  padding: 0;
+}
+nav h2 {
+  font-size: 1.25rem;
+}
+@media (min-width: 992px) {
+  nav h2 {
+    font-size: 1.75rem;
+  }
+}
+nav a {
+  color: #67d9e8;
+  font-size: 1.25rem;
+}
+@media (min-width: 992px) {
+  nav a {
+    font-size: 1.75rem;
+  }
+}
+nav a:hover {
+  color: inherit;
+  font-size: 1.25rem;
+}
+@media (min-width: 992px) {
+  nav a:hover {
+    font-size: 1.75rem;
+  }
+}
+
+.title {
+  color: #d19966;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+@media (min-width: 768px) {
+  .title {
+    font-size: 1.75rem;
+  }
+}
+
+p {
+  font-size: 16px;
+}
+@media (min-width: 768px) {
+  p {
+    font-size: 1.25rem;
+  }
+}
+
+.home,
+.about,
+.contact {
+  width: 95%;
+}
+@media (min-width: 992px) {
+  .home,
+.about,
+.contact {
+    width: 80%;
+  }
+}
+
+.home {
+  padding-right: 0px;
+  text-align: center;
+}
+
+.about {
+  color: #66b8ff;
+}
+.about h4 {
+  line-height: 2rem;
+}
+
+.humans {
+  color: #8bf2af;
+}
+
+#bright {
+  color: #feff49;
+  cursor: pointer;
+}
+
+.projects {
+  padding-left: 5%;
+  padding-right: 0px;
+}
+.projects .title {
+  padding-left: 5%;
+}
+
+.project-pics {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.a1 {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+}
+
+.b1 {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
+.c1 {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
+.project-overlay {
+  opacity: 0;
+  border: grey 3px solid;
+  border-radius: 3px;
+  color: #66b8ff;
+  line-height: normal;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background: rgba(41, 45, 52, 0.9);
+  width: 100%;
+}
+.project-overlay h5 {
+  border-bottom: #cccccc 0.5px solid;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 10px;
+}
+.project-overlay h5 h5,
+.project-overlay h5 p {
+  font-size: 0.7rem;
+}
+@media (min-width: 768px) {
+  .project-overlay h5 {
+    font-size: 0.85rem;
+  }
+}
+@media (min-width: 992px) {
+  .project-overlay h5 {
+    font-size: 1.25rem;
+  }
+}
+.project-overlay p {
+  margin-top: 5px;
+}
+@media (min-width: 768px) {
+  .project-overlay p {
+    font-size: 0.85rem;
+  }
+}
+@media (min-width: 992px) {
+  .project-overlay p {
+    font-size: 16px;
+  }
+}
+.project-overlay:hover {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.skill {
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.desc {
+  display: none;
+}
+@media (min-width: 768px) {
+  .desc {
+    display: block;
+  }
+}
+
+.contact p {
+  color: #67d9e8;
+}
+.contact a {
+  color: #66b8ff;
+  font-size: 0.85rem;
+  text-decoration: none;
+}
+@media (min-width: 768px) {
+  .contact a {
+    font-size: 1.25rem;
+  }
+}
+.contact a:hover {
+  color: #8bf2af;
+}
+
+.full-container {
+  padding: 0;
+  flex: 1;
+}
+
+.full-wrapper {
+  min-height: 100vh;
+  max-width: 1400px;
+  text-align: center;
+}
+
+.big-container {
+  min-height: calc(100vh - 180px);
+}
+
+footer {
+  display: none;
+}
+
+/*# sourceMappingURL=custom.css.map */

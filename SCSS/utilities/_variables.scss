@@ -1,0 +1,43 @@
+// FONT
+$prim-font: 'Kodchasan', sans-serif;
+$sec-font: 'Gloria Hallelujah', cursive;
+$tir-font: 'Nunito Sans', sans-serif;
+
+
+$tiny-overlay: .7rem;
+$small-overlay: .85rem;
+$base-font-size: 16px;
+$sm-title-text-size: 1.25rem;
+$title-text-size: 1.75rem;
+$sm-nav-font-size: 1.25rem;
+$main-nav-font-size: 1.75rem;
+
+
+
+// COLORS
+$black: black;
+$grey: #b3b3b3;
+$light-grey: lighten($grey, 40%);
+$background: #292d34;
+$white: #fff;
+
+$font-coral: #f97985;
+$font-teal: #67d9e8;
+$font-green: #8bf2af;
+$font-orange: #d19966;
+$font-blue: #66b8ff;
+$font-yellow: #feff49;
+
+$box-outline: #00af00;
+
+// BREAKPOINTS
+$brk-small: 576px;
+$brk-medium: 768px;
+$brk-large: 992px;
+$brk-xl: 1200px;
+
+
+// SPACING
+$sm-content-width: 95%;
+$main-content-width: 80%;
+$left-padding: 10%;

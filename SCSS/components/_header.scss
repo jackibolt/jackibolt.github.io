@@ -1,0 +1,19 @@
+// HEADER styles
+
+header {
+  font-family: $sec-font;
+  position: fixed;
+  background: $background;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 0;
+  width: 160px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: $font-coral;
+  h6 {
+    color: $white;
+    font-family: $prim-font;
+  }
+}
