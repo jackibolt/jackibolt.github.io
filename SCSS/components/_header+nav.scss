@@ -7,6 +7,7 @@
   border: none;
   color: $secondary;
   padding-top: 0;
+  padding-bottom: 0;
   z-index: 50;
 }
 
@@ -31,7 +32,7 @@
 }
 
 .navbar-dark .navbar-nav .nav-link:hover,
-.navbar-dark .navbar-nav .nav-link:active {
+.navbar-dark .navbar-nav .nav-link.active {
   color: $white !important;
 }
 
@@ -46,8 +47,11 @@ button.navbar-toggler  {
 }
 
 .top-graphic {
-  height: 300px;
+  height: 500px;
   letter-spacing: .15rem;
+  // margin-top: 30px;
+  border-left: 1px solid $secondary;
+  border-bottom: 1px solid $secondary;
 }
 
 .top-graphic > h2 > span {

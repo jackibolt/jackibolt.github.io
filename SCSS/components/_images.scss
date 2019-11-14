@@ -12,11 +12,13 @@ img {
 .profile-pic {
   display: none;
   height: auto;
+  margin-top: -30px;
 }
 
 .profile-pic-horiz {
     margin-top: 20px;
     margin-bottom: 30px;
+
 }
 
 @include mediaQ('med') {
