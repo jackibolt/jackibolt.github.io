@@ -77,41 +77,6 @@ button.navbar-toggler {
   font-size: 37px;
 }
 
-#j {
-  color: #f97985;
-  vertical-align: text-top;
-}
-
-#u {
-  color: #8bf2af;
-  vertical-align: text-top;
-}
-
-#m {
-  color: #67d9e8;
-  vertical-align: text-top;
-}
-
-#p {
-  color: #feff49;
-  vertical-align: text-top;
-}
-
-#i {
-  color: #d19966;
-  vertical-align: text-top;
-}
-
-#n {
-  color: #8bf2af;
-  vertical-align: text-top;
-}
-
-#g {
-  color: #f97985;
-  vertical-align: text-top;
-}
-
 .projects {
   font-variant: normal;
 }
@@ -163,16 +128,31 @@ button.navbar-toggler {
 
 .side-b p {
   font-variant: normal;
+  margin-bottom: 8px !important;
 }
 
-.more {
-  display: inline-block;
-  background: red;
-  border-radius: 5px;
-  padding-left: 18px;
-  padding-right: 18px;
-  padding-top: 3px;
-  padding-bottom: 3px;
+.side-b .skills-p,
+.side-b h3,
+.side-b h5 {
+  color: #4daeb7;
+  font-variant: small-caps;
+}
+
+.side-b p {
+  font-size: 14px;
+}
+
+.side-b > div > h6 {
+  margin-top: -10px !important;
+}
+
+.yellow {
+  color: #fcff9e;
+}
+
+.btn-primary {
+  background: #4daeb7;
+  border-color: #4daeb7;
 }
 
 img {
@@ -205,6 +185,11 @@ img {
     display: none;
   }
 }
+.modal-body img {
+  max-height: 300px;
+  width: auto;
+}
+
 .skills-logo {
   height: 60px;
   width: auto;
@@ -291,6 +276,14 @@ img {
   width: 100%;
   right: 0;
   left: 0;
+}
+
+.modal {
+  height: 600px;
+}
+
+.fade {
+  color: black;
 }
 
 /*# sourceMappingURL=custom.css.map */

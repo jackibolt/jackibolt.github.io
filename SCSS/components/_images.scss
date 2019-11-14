@@ -28,3 +28,8 @@ img {
       display: none;
   }
 }
+
+.modal-body img {
+    max-height: 300px;
+    width: auto;
+}

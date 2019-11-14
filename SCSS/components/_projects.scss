@@ -50,14 +50,48 @@
 
 .side-b p {
     font-variant: normal;
+    margin-bottom: 8px !important;
 }
 
-.more {
-    display: inline-block;
-    background: red;
-    border-radius: 5px;
-    padding-left: 18px;
-    padding-right: 18px;
-    padding-top: 3px;
-    padding-bottom: 3px;
+// .more {
+//     display: inline-block;
+//     background: $secondary;
+//     border-radius: 5px;
+//     padding-left: 18px;
+//     padding-right: 18px;
+//     padding-top: 3px;
+//     padding-bottom: 3px;
+// }
+
+// .more:hover {
+//     background: $white;
+
+
+//     a {
+//         background: black;
+//     }
+// }
+
+.side-b .skills-p,
+.side-b h3,
+.side-b h5 {
+    color: $secondary;
+    font-variant: small-caps;
+}
+
+.side-b p {
+    font-size: 14px;
+}
+
+.side-b > div > h6 {
+    margin-top: -10px !important;
+}
+
+.yellow {
+    color: #fcff9e;
+}
+
+.btn-primary {
+    background: $secondary;
+    border-color: $secondary;
 }
