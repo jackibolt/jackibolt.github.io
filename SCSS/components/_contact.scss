@@ -1,0 +1,63 @@
+
+// contact styles
+
+.contact {
+  font-size: 24px;
+  a {
+    font-size: 28px;
+    font-variant: normal;
+  }
+  text-align: center;
+}
+
+
+.social {
+  a {
+    // margin: 25px;
+    path,
+    circle {
+      transition: fill .5s;
+    }
+    &:hover {
+      path,
+      circle {
+        fill: #fcff9e;
+      }
+    }
+  }
+}
+
+
+.social > a:hover {
+  svg{
+    fill: white;
+  }
+}
+
+.contact .contact-row {
+  text-align: center;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+@include mediaQ('med') {
+  .contact .contact-row {
+    display: block;
+  }
+  .contact .contact-row > span {
+    display: inline-block;
+    padding-right: 15px;
+  }
+}
+
+
+
+#or {
+
+}
+
+.social-link {
+  // height: 45px;
+  height: 45px;
+}

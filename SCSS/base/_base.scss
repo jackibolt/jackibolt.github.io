@@ -1,0 +1,33 @@
+// BASE styles
+
+* {
+  font-family: $prim-font;
+  box-sizing: border-box;
+  font-variant: small-caps;
+}
+
+body {
+  color: #b6bfc8;
+  text-align: center;
+  background-color: black;
+  border-bottom: black solid 4px;
+  width: 100%;
+  font-size: $base-font-size;
+  position: relative;
+}
+
+a {
+  color: inherit;
+  transition: color .5s;
+}
+
+a:hover {
+  text-decoration: none;
+  color: $secondary;
+}
+
+@include mediaQ('med') {
+  .medium-left{
+    text-align: left;
+  }
+}
