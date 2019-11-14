@@ -16,9 +16,16 @@
   font-stretch: expanded;
   font-weight: 100;
   font-size: 45px;
+  transition: all .25s;
 }
 
 #header-logo {
+  // visibility: hidden;
+  display: none;
+  transition: all .25s;
+}
+
+.nav-hide {
   display: none;
 }
 
@@ -35,7 +42,8 @@
 .parallax-hero {
   min-height: 500px; 
   background-attachment: fixed;
-  background-image: url(../IMGS/jacki_bolt_headshot_horiz.jpg);
+  // background-image: url(../IMGS/jacki_bolt_headshot_horiz.jpg);
+  background: pink;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -69,9 +77,9 @@
 }
 
 
-button.navbar-toggler  {
-  background-color: $secondary !important;
-}
+// button.navbar-toggler  {
+//   background-color: $secondary !important;
+// }
 
 .navbar-collapse {
   background: black;

@@ -2,7 +2,7 @@ img {
   width: 100%;
 }
 
-.header-logo {
+#header-logo {
   height: 80px;
   width: 80px;
   margin-top: 10px;
@@ -11,17 +11,16 @@ img {
 
 .profile-pic {
   display: none;
-  height: auto;
+  width: auto;
   margin-top: -30px;
 }
 
 .profile-pic-horiz {
     margin-top: 20px;
     margin-bottom: 30px;
-
 }
 
-@include mediaQ('med') {
+@include mediaQ('md') {
   .profile-pic {
     display: block;
   }
