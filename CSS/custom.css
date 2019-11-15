@@ -60,7 +60,7 @@ a.navbar-brand {
   transition: all 0.25s;
 }
 
-.parallax-hero {
+.hero {
   height: 100vh;
   background-image: url(../IMGS/arrows.png);
   background-position: center;
