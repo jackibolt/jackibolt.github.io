@@ -139,7 +139,7 @@ button.navbar-toggler {
 }
 
 @media (max-width: 992px) {
-  [class*=col-] {
+  .project-container {
     margin-bottom: 15px;
   }
 }
