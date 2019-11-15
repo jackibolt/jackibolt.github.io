@@ -323,10 +323,6 @@ img {
 @media (min-width: 768px) {
   .about-list-div {
     display: block;
-  }
-}
-@media (min-width: 992px) {
-  .about-text {
     margin-top: 0px;
   }
 }

@@ -28,11 +28,12 @@
 @include mediaQ('med') {
     .about-list-div {
         display: block;
+        margin-top: 0px;
     }
 }
 
 @include mediaQ('large') {
     .about-text {
-        margin-top: 0px;
+        // margin-top: 0px;
     }
 }
