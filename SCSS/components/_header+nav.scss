@@ -6,21 +6,23 @@
   background-color: black;
   border: none;
   color: $secondary;
-  padding-top: 0;
+  padding-top: 15px;
   padding-bottom: 0;
   z-index: 50;
 }
 
 #header-name {
-  font-variant: normal;
-  font-stretch: expanded;
-  font-weight: 100;
-  font-size: 45px;
+  height: 40px;
+  width: auto;
   transition: all .25s;
 }
 
+a.navbar-brand {
+  margin-right: 0px;
+  line-height: 25px;
+}
+
 #header-logo {
-  // visibility: hidden;
   display: none;
   transition: all .25s;
 }
@@ -29,21 +31,11 @@
   display: none;
 }
 
-// .top-bar {
-//   height: 100px;
-//   position: relative;
-//   top: 0;
-//   z-index: 100;
-//   margin-bottom: -100px;
-//   background-color: black;
-//   width: 100%;
-// }
-
 .parallax-hero {
-  min-height: 500px; 
+  height: 100vh;
   background-attachment: fixed;
   // background-image: url(../IMGS/jacki_bolt_headshot_horiz.jpg);
-  background: pink;
+  background: black;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -55,20 +47,20 @@
 // Nav styles
 
 .navbar-dark .navbar-nav .nav-item {
-  padding-left: 0px;
-  
+  padding-left: 0px;  
 }
 
-@include mediaQ('med') {
-  .navbar-dark .navbar-nav .nav-item {
-    padding-left: 50px;
-  }
+
+.nav-btn {
+  justify-content: flex-end;
 }
 
 .navbar-dark .navbar-nav .nav-link {
   color: $secondary !important;
-  font-size: 24px;
+  font-size: 18px;
   margin-top:20px;
+  padding-left: 0px;
+  margin-left: 15px;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover,
@@ -77,27 +69,44 @@
 }
 
 
-// button.navbar-toggler  {
-//   background-color: $secondary !important;
+button.navbar-toggler  {
+  border: none;
+}
+
+.nav-container {
+  display: flex;
+  margin: auto;
+}
+
+// @include mediaQ('med') {
+//   .nav-container {
+//     flex-direction: row;
+//     justify-content: flex-start
+//   }
 // }
+
+.navbar-dark .navbar-toggler-icon {
+  background-image: url(../IMGS/menu_icon.png)!important;
+  border: 2px solid $secondary;
+  width: 50px;
+  height: 50px;
+  }
 
 .navbar-collapse {
   background: black;
   z-index: 300;
 }
 
-// .top-graphic {
-//   height: 500px;
-//   letter-spacing: .15rem;
-//   // margin-top: 30px;
-//   border-left: 1px solid $secondary;
-//   border-bottom: 1px solid $secondary;
-//   // background: $white;
-//   padding-bottom: 30px;
-// }
-
-// .top-graphic > h2 > span {
-//   letter-spacing: .25rem;
-//   font-size: 37px;
-// }
-
+// MEDIA ADJUSTMENTS
+@include mediaQ('med') {
+  #header-name {
+    height: 70px;
+  }
+  .navbar-dark .navbar-toggler-icon {
+    width: 70px;
+    height: 70px;
+  }
+  .navbar-nav {
+    text-align: right;
+  }
+}

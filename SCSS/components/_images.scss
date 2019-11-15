@@ -6,7 +6,8 @@ img {
   height: 80px;
   width: 80px;
   margin-top: 10px;
-  margin-left: 5%;
+  border: 2px solid teal;
+  border-radius: 50%;
 }
 
 .profile-pic {
@@ -20,9 +21,10 @@ img {
     margin-bottom: 30px;
 }
 
-@include mediaQ('md') {
+@include mediaQ('large') {
   .profile-pic {
     display: block;
+    width: auto;
   }
   
   .profile-pic-horiz {
