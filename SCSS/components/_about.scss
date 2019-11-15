@@ -7,7 +7,7 @@
 
 .about-text {
     font-variant: normal;
-    // margin-top: 30px;
+    margin-top: 30px;
 }
 
 .about-list li {
@@ -34,6 +34,6 @@
 
 @include mediaQ('large') {
     .about-text {
-        // margin-top: 0px;
+        margin-top: 0px;
     }
 }
