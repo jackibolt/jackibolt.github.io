@@ -12,14 +12,14 @@ img {
 
 .profile-pic {
   display: none;
-  max-width: 100%;
-  height: auto;
   margin-top: -30px;
 }
 
 .profile-pic-horiz {
     margin-top: 20px;
     margin-bottom: 30px;
+    max-width: 100%;
+    height: auto;
 }
 
 @include mediaQ('large') {
