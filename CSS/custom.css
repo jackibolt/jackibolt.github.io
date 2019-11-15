@@ -138,6 +138,11 @@ button.navbar-toggler {
   font-variant: normal;
 }
 
+@media (max-width: 768px) {
+  [class*=col-] {
+    margin-bottom: 15px;
+  }
+}
 .project-section .container-fluid {
   padding-left: 0px;
   padding-right: 0px;
@@ -376,6 +381,10 @@ img {
   width: 100%;
   right: 0;
   left: 0;
+}
+
+.footer-link {
+  color: black;
 }
 
 .modal {
