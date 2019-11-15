@@ -18,14 +18,14 @@ img {
 .profile-pic-horiz {
     margin-top: 20px;
     margin-bottom: 30px;
-    // max-width: 100%;
+    max-width: 100%;
     height: auto;
 }
 
 @include mediaQ('large') {
   .profile-pic {
     display: block;
-    width: auto;
+    // width: auto;
   }
   
   .profile-pic-horiz {

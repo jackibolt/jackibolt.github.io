@@ -277,13 +277,13 @@ img {
 .profile-pic-horiz {
   margin-top: 20px;
   margin-bottom: 30px;
+  max-width: 100%;
   height: auto;
 }
 
 @media (min-width: 992px) {
   .profile-pic {
     display: block;
-    width: auto;
   }
 
   .profile-pic-horiz {
