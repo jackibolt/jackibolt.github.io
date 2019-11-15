@@ -138,6 +138,11 @@ button.navbar-toggler {
   font-variant: normal;
 }
 
+.project-section .container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
 .row {
   perspective: 1750px;
 }
@@ -172,20 +177,14 @@ button.navbar-toggler {
   right: 0;
   bottom: 0;
   left: 0;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
   display: flex;
-  /* For centering text inside .photo-overlay */
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background: #343538;
   transform: rotateY(180deg);
-}
-
-.side-b p {
-  font-variant: normal;
-  margin-bottom: 8px !important;
 }
 
 .side-b .skills-p,
@@ -196,7 +195,23 @@ button.navbar-toggler {
 }
 
 .side-b p {
-  font-size: 14px;
+  font-variant: normal;
+  margin-bottom: 8px !important;
+  font-size: 13px;
+  line-height: 1.25;
+}
+
+.sb-small {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.sb-small p {
+  font-size: 12px;
+}
+
+.sb-small h3 {
+  font-size: 24px;
 }
 
 .side-b > div > h6 {
@@ -218,6 +233,26 @@ button.navbar-toggler {
   border-color: #4daeb7;
 }
 
+@media (min-width: 768px) {
+  .side-b {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .sb-small {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  .sb-small p {
+    font-size: 13px;
+  }
+
+  .side-b p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+}
 img {
   width: 100%;
 }
