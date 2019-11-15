@@ -284,7 +284,7 @@ img {
 @media (min-width: 992px) {
   .profile-pic {
     display: block;
-    height: auto;
+    max-height: 100%;
   }
 
   .profile-pic-horiz {
