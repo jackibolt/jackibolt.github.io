@@ -16,15 +16,15 @@ if (windowWidth.matches) {
 
 function scrollFunction() {
     // scroll has passed 450px -> hide wordmark, show circle logo
-    if (document.body.scrollTop > 450 || document.documentElement.scrollTop > 450) {
-        headerName.style.display = "none";
-        headerLogo.style.display = 'block';
+    if (document.body.scrollTop > 600 || document.documentElement.scrollTop > 600) {
+        // headerName.style.display = "none";
+        // headerLogo.style.display = 'block';
         navBar.style.height = '110px'
         navDark.classList.add('navbar-expand-md');
     } else {
       // scroll has NOT passed 450px -> show wordmark, hide circle logo
-      headerName.style.display = "block";
-      headerLogo.style.display = 'none';
+      // headerName.style.display = "block";
+      // headerLogo.style.display = 'none';
       navDark.classList.remove('navbar-expand-md');
     }
 }

@@ -24,18 +24,16 @@ a.navbar-brand {
 
 #header-logo {
   display: none;
+  margin-top: 0px;
   transition: all .25s;
 }
 
-.nav-hide {
-  display: none;
-}
 
 .parallax-hero {
   height: 100vh;
-  background-attachment: fixed;
-  // background-image: url(../IMGS/jacki_bolt_headshot_horiz.jpg);
-  background: black;
+  // background-attachment: fixed;
+  background-image: url(../IMGS/arrows.png);
+  // background: black;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -58,7 +56,6 @@ a.navbar-brand {
 .navbar-dark .navbar-nav .nav-link {
   color: $secondary !important;
   font-size: 18px;
-  margin-top:20px;
   padding-left: 0px;
   margin-left: 15px;
 }
@@ -78,13 +75,6 @@ button.navbar-toggler  {
   margin: auto;
 }
 
-// @include mediaQ('med') {
-//   .nav-container {
-//     flex-direction: row;
-//     justify-content: flex-start
-//   }
-// }
-
 .navbar-dark .navbar-toggler-icon {
   background-image: url(../IMGS/menu_icon.png)!important;
   border: 2px solid $secondary;
@@ -99,6 +89,10 @@ button.navbar-toggler  {
 
 // MEDIA ADJUSTMENTS
 @include mediaQ('med') {
+  .navbar{
+    margin-top: auto;
+    height: 130px;
+  }
   #header-name {
     height: 70px;
   }
@@ -108,5 +102,9 @@ button.navbar-toggler  {
   }
   .navbar-nav {
     text-align: right;
+  }
+  .navbar-dark .navbar-nav .nav-link {
+    font-size: 24px;
+    padding-left: 50px;
   }
 }

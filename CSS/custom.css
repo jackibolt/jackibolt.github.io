@@ -56,17 +56,13 @@ a.navbar-brand {
 
 #header-logo {
   display: none;
+  margin-top: 0px;
   transition: all 0.25s;
-}
-
-.nav-hide {
-  display: none;
 }
 
 .parallax-hero {
   height: 100vh;
-  background-attachment: fixed;
-  background: black;
+  background-image: url(../IMGS/arrows.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -84,7 +80,6 @@ a.navbar-brand {
 .navbar-dark .navbar-nav .nav-link {
   color: #4daeb7 !important;
   font-size: 18px;
-  margin-top: 20px;
   padding-left: 0px;
   margin-left: 15px;
 }
@@ -116,6 +111,11 @@ button.navbar-toggler {
 }
 
 @media (min-width: 768px) {
+  .navbar {
+    margin-top: auto;
+    height: 130px;
+  }
+
   #header-name {
     height: 70px;
   }
@@ -127,6 +127,11 @@ button.navbar-toggler {
 
   .navbar-nav {
     text-align: right;
+  }
+
+  .navbar-dark .navbar-nav .nav-link {
+    font-size: 24px;
+    padding-left: 50px;
   }
 }
 .projects {
@@ -220,7 +225,6 @@ img {
 #header-logo {
   height: 80px;
   width: 80px;
-  margin-top: 10px;
   border: 2px solid teal;
   border-radius: 50%;
 }
