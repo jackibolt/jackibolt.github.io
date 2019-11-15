@@ -271,31 +271,23 @@ img {
 
 .profile-pic {
   display: none;
+  margin: auto;
   margin-top: -30px;
 }
 
 .profile-pic-horiz {
   margin-top: 20px;
-  margin-bottom: 30px;
-  max-width: 100%;
-  height: auto;
 }
 
 @media (min-width: 992px) {
   .profile-pic {
     display: block;
-    max-height: 100%;
   }
 
   .profile-pic-horiz {
     display: none;
   }
 }
-.modal-body img {
-  max-height: 300px;
-  width: auto;
-}
-
 .skills-logo {
   height: 60px;
   width: auto;
@@ -310,6 +302,7 @@ img {
 
 .about-text {
   font-variant: normal;
+  margin-top: 30px;
 }
 
 .about-list li {
@@ -330,6 +323,11 @@ img {
 @media (min-width: 768px) {
   .about-list-div {
     display: block;
+  }
+}
+@media (min-width: 992px) {
+  .about-text {
+    margin-top: 0px;
   }
 }
 .contact {

@@ -12,21 +12,22 @@ img {
 
 .profile-pic {
   display: none;
+  margin: auto;
   margin-top: -30px;
 }
 
 .profile-pic-horiz {
     margin-top: 20px;
-    margin-bottom: 30px;
-    max-width: 100%;
-    height: auto;
+    // margin-bottom: 30px;
+    // max-width: 100%;
+    // height: auto;
 }
 
 @include mediaQ('large') {
   .profile-pic {
     display: block;
     // width: auto;
-    max-height: 100%;
+    // max-height: 100%;
   }
   
   .profile-pic-horiz {
@@ -34,7 +35,7 @@ img {
   }
 }
 
-.modal-body img {
-    max-height: 300px;
-    width: auto;
-}
+// .modal-body img {
+//     max-height: 300px;
+//     width: auto;
+// }
