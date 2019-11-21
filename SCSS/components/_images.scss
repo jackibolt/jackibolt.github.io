@@ -5,7 +5,6 @@ img {
 #header-logo {
   height: 80px;
   width: 80px;
-  // margin-top: 10px;
   border: 2px solid teal;
   border-radius: 50%;
 }
@@ -16,23 +15,14 @@ img {
   margin-top: -30px;
 }
 
-.profile-pic-horiz {
-  // margin: auto;
-}
 
 @include mediaQ('large') {
   .profile-pic {
     display: block;
-    // width: auto;
-    // max-height: 100%;
+
   }
   
   .profile-pic-horiz {
       display: none;
   }
 }
-
-// .modal-body img {
-//     max-height: 300px;
-//     width: auto;
-// }
