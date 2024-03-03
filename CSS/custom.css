@@ -7,9 +7,7 @@
 body {
   color: #b6bfc8;
   text-align: center;
-  /* background-color: black; */
-  background-color: #010d10;
-  border-bottom: #010d10 solid 4px;
+  background-color: #061c22;
   width: 100%;
   font-size: 16px;
   position: relative;
@@ -36,7 +34,7 @@ a:hover {
 
 .navbar {
   height: 100px;
-  background-color: #010d10;
+  background-color: #061c22;
   border: none;
   color: #4daeb7;
   padding-top: 15px;
