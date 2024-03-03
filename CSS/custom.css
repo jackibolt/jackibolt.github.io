@@ -7,8 +7,9 @@
 body {
   color: #b6bfc8;
   text-align: center;
-  background-color: black;
-  border-bottom: black solid 4px;
+  /* background-color: black; */
+  background-color: #010d10;
+  border-bottom: #010d10 solid 4px;
   width: 100%;
   font-size: 16px;
   position: relative;
@@ -35,7 +36,7 @@ a:hover {
 
 .navbar {
   height: 100px;
-  background-color: black;
+  background-color: #010d10;
   border: none;
   color: #4daeb7;
   padding-top: 15px;
@@ -188,7 +189,7 @@ button.navbar-toggler {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #343538;
+  background: #1d1e1f;
   transform: rotateY(180deg);
 }
 
@@ -308,7 +309,7 @@ img {
 
 .about-list li {
   font-variant: normal;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   line-height: 24px;
 }
 
@@ -347,7 +348,7 @@ img {
 }
 .social a:hover path,
 .social a:hover circle {
-  fill: #fcff9e;
+  fill: #f6a8f9;
 }
 
 .social > a:hover svg {
